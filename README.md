@@ -56,7 +56,7 @@ The following packages are loaded during the analysis:
 
 # Complete list of packages used
 The scripts have been tested with the following sessionInfo():
-
+```
 R version 3.6.1 (2019-07-05)
 Platform: x86_64-apple-darwin15.6.0 (64-bit)
 Running under: macOS Mojave 10.14.6
@@ -133,3 +133,4 @@ loaded via a namespace (and not attached):
 [113] survival_2.44-1.1        glue_1.3.1               zip_2.0.4                UpSetR_1.4.0            
 [117] bit_1.1-14               ggforce_0.3.1            stringi_1.4.3            blob_1.2.0              
 [121] latticeExtra_0.6-28      caTools_1.17.1.2         memoise_1.1.0       
+```
