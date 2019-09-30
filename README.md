@@ -21,7 +21,7 @@ The script runAnalysis.R runs the individual scripts in the correct order. Insta
 
 After running, excel sheets with summary data for the analysis as well as figures included in the publication will be generated.
 
-# Pacakges used in the analysis
+# Packages used in the analysis
 The following packages are loaded during the analysis:
 	data.table
 	magrittr
