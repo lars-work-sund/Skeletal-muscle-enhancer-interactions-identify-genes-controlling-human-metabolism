@@ -1,0 +1,54 @@
+Palmitate
+$Up
+
+	Two-sample Kolmogorov-Smirnov test
+
+data:  dt[group, logFC, on = "group"] and dt["None", logFC, on = "group"]
+D = 0.27753, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+
+$Down
+
+	Two-sample Kolmogorov-Smirnov test
+
+data:  dt[group, logFC, on = "group"] and dt["None", logFC, on = "group"]
+D = 0.077191, p-value = 0.006766
+alternative hypothesis: two-sided
+
+
+$Both
+
+	Two-sample Kolmogorov-Smirnov test
+
+data:  dt[group, logFC, on = "group"] and dt["None", logFC, on = "group"]
+D = 0.18065, p-value = 0.007092
+alternative hypothesis: two-sided
+
+
+TNFa
+$Up
+
+	Two-sample Kolmogorov-Smirnov test
+
+data:  dt[group, logFC, on = "group"] and dt["None", logFC, on = "group"]
+D = 0.23616, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+
+$Down
+
+	Two-sample Kolmogorov-Smirnov test
+
+data:  dt[group, logFC, on = "group"] and dt["None", logFC, on = "group"]
+D = 0.083037, p-value = 1.843e-11
+alternative hypothesis: two-sided
+
+
+$Both
+
+	Two-sample Kolmogorov-Smirnov test
+
+data:  dt[group, logFC, on = "group"] and dt["None", logFC, on = "group"]
+D = 0.10006, p-value = 1.431e-09
+alternative hypothesis: two-sided
