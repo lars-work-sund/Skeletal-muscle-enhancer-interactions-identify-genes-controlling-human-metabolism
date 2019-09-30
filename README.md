@@ -10,7 +10,7 @@ All scripts are R scripts. A working installation of R is necessary.
 The scripts have been tested with R version 3.6.1.
 
 Clone the repository, and install the necessary packages, listed below.
-Not that many packages are distributed through Bioconductor (https://bioconductor.org/).
+Note that many packages are distributed through Bioconductor (https://bioconductor.org/).
 
 The script runAnalysis.R runs the individual scripts in the correct order.
 
