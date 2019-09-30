@@ -5,9 +5,17 @@ This repository contains the needed scripts to regenerate the results used in th
 
 It includes the raw counts for both the RNA and ChIP experiments. In order to save space the raw counts for the cHiC experment are not included. Instead the processed counts linking enhancers to promoters are included.
 
-# Pacakges used in the analysis
-The following packages are loaded during the analysis used:
+# Installation instructions
+All scripts are R scripts. A working installation of R is necessary.
+The scripts have been tested with R version 3.6.1.
 
+Clone the repository, and install the necessary packages, listed below.
+Not that many packages are distributed through Bioconductor (https://bioconductor.org/).
+
+The script runAnalysis.R runs the individual scripts in the correct order.
+
+# Pacakges used in the analysis
+The following packages are loaded during the analysis:
 	data.table
 	magrittr
 	edgeR
@@ -27,7 +35,6 @@ The following packages are loaded during the analysis used:
 	ChIPseeker
 	rtracklayer
 	liftOver
-	cbmR
 	scales
 	factoextra
 	reshape2
@@ -47,7 +54,7 @@ The following packages are loaded during the analysis used:
 	InteractionSet
 	AnnotationDbi
 
-# Complete list of pacakges used
+# Complete list of packages used
 The scripts have been tested with the following sessionInfo():
 
 R version 3.6.1 (2019-07-05)
