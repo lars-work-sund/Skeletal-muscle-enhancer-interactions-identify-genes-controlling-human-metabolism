@@ -12,6 +12,11 @@ The scripts have been tested with R version 3.6.1.
 Clone the repository, and install the necessary packages, listed below.
 Note that many packages are distributed through Bioconductor (https://bioconductor.org/).
 
+Once Bioconductor has been installed, the following piece of code will install the necessary packages.
+```
+BiocManager::install(c("data.table", "magrittr", "edgeR", "stringr", "clusterProfiler", "openxlsx", "TxDb.Hsapiens.UCSC.hg38.knownGene", "ggplot2", "pheatmap", "RColorBrewer", "PoiClaClu", "org.Hs.eg.db", "SummarizedExperiment", "reactome.db", "GO.db", "biomaRt", "ChIPseeker", "rtracklayer", "liftOver", "cbmR", "scales", "factoextra", "reshape2", "gridExtra", "vegan", "dplyr", "zoo", "gtable", "grid", "diffHic", "BSgenome.Hsapiens.UCSC.hg38", "csaw", "GenomicRanges", "clipr", "GenomicInteractions", "xlsx", "InteractionSet"))
+```
+
 The script runAnalysis.R runs the individual scripts in the correct order.
 
 # Pacakges used in the analysis
