@@ -17,7 +17,9 @@ Once Bioconductor has been installed, the following piece of code will install t
 BiocManager::install(c("data.table", "magrittr", "edgeR", "stringr", "clusterProfiler", "openxlsx", "TxDb.Hsapiens.UCSC.hg38.knownGene", "ggplot2", "pheatmap", "RColorBrewer", "PoiClaClu", "org.Hs.eg.db", "SummarizedExperiment", "reactome.db", "GO.db", "biomaRt", "ChIPseeker", "rtracklayer", "liftOver", "cbmR", "scales", "factoextra", "reshape2", "gridExtra", "vegan", "dplyr", "zoo", "gtable", "grid", "diffHic", "BSgenome.Hsapiens.UCSC.hg38", "csaw", "GenomicRanges", "clipr", "GenomicInteractions", "xlsx", "InteractionSet"))
 ```
 
-The script runAnalysis.R runs the individual scripts in the correct order.
+The script runAnalysis.R runs the individual scripts in the correct order. Install time depends on internet speed, but should be less than 30 minutes for most users. Runtime is approx. 15 minutes on the computer used for the analysis.
+
+After running, excel sheets with summary data for the analysis as well as figures included in the publication will be generated.
 
 # Pacakges used in the analysis
 The following packages are loaded during the analysis:
