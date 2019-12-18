@@ -37,7 +37,7 @@ ggplot(data.table(dist), aes(x = dist)) +
   annotation_logticks(sides = "b") +
   theme_cbmr() +
   theme(plot.margin=unit(c(5,10,5,5),"mm")) +
-  geom_vline(xintercept = meanDist, lty = 3)
+  geom_vline(xintercept = medianDist, lty = 3)
 
 ggsave(filename = "distanceBetweenFragments.pdf")
 meanDist
