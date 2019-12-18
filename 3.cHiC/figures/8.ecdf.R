@@ -16,7 +16,6 @@ readXlsxFile <- function(file)
   lapply(x, . %>% read.xlsx(xlsxFile = file) %>% data.table)
 }
 rnaSeq <- readXlsxFile("../../2.RNA/edgeR_results/RNA.xlsx")
-rnaSeq$Insulin <- NULL
 
 enhancer <- readXlsxFile("../../1.ChIP/enhancerPeaksAnnotated.xlsx")
 lapply(enhancer, setkey, "rn") %>% invisible()
