@@ -32,7 +32,7 @@ addFractionSignificant <- function(type, edgerRes, cyt.go.genes)
   up <- goRes[Direction == "Up"][1:10]
   
   fracSignif <- function(x){
-    fdrCutoff <- 0.05
+    fdrCutoff <- 0.01
     edgerRes[cyt.go.genes[x], sum(FDR < fdrCutoff)/.N, nomatch = FALSE]
   }
   up[, fractionSignificant:=lapply(GOID, fracSignif) %>% unlist]
