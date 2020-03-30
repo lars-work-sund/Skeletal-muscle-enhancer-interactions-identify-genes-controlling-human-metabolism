@@ -1,5 +1,5 @@
-# Skeletal-muscle-enhancer-interactions-identify-novel-genes-controlling-human-metabolism
-Code for the paper: Skeletal muscle enhancer interactions identify novel genes controlling human metabolism
+# Skeletal-muscle-enhancer-interactions-identify-genes-controlling-human-metabolism
+Code for the paper: Skeletal muscle enhancer interactions identify genes controlling human metabolism
 
 This repository contains the needed scripts to regenerate the results used in the paper: Skeletal muscle enhancer interactions identify novel genes controlling whole body metabolism in humans
 
